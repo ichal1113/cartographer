@@ -1,0 +1,10 @@
+{
+  "name": "cartographer-marketplace",
+  "description": "Codebase mapping plugin for Claude Code",
+  "plugins": [
+    {
+      "name": "cartographer",
+      "path": "."
+    }
+  ]
+}

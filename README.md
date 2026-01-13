@@ -1,5 +1,8 @@
 # Cartographer
 
+<img width="640" height="360" alt="claudecartographer" src="https://github.com/user-attachments/assets/542818c6-fc2b-41a6-915d-cf196447f346" />
+
+
 A Claude Code plugin that maps and documents codebases of any size using parallel AI subagents.
 
 ## Installation

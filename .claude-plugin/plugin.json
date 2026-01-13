@@ -1,0 +1,24 @@
+{
+  "name": "cartographer",
+  "version": "1.0.0",
+  "description": "Maps and documents codebases of any size using parallel AI subagents. Creates comprehensive architecture documentation.",
+  "author": {
+    "name": "Bootoshi",
+    "url": "https://github.com/bootoshi"
+  },
+  "homepage": "https://github.com/bootoshi/cartographer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bootoshi/cartographer.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codebase",
+    "architecture",
+    "documentation",
+    "mapping",
+    "onboarding",
+    "subagents"
+  ],
+  "skills": "./skills"
+}

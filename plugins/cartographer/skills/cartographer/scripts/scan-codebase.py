@@ -1,21 +1,32 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.9"
+# dependencies = ["tiktoken"]
+# ///
 """
 Codebase Scanner for Cartographer
 Scans a directory tree, respects .gitignore, and outputs file paths with token counts.
 Uses tiktoken for accurate Claude-compatible token estimation.
+
+Run with: uv run scan-codebase.py [path]
+UV will automatically install tiktoken in an isolated environment.
 """
 
 import argparse
 import json
-import os
 import sys
 from pathlib import Path
-from typing import Optional
 
 try:
     import tiktoken
 except ImportError:
-    print("ERROR: tiktoken not installed. Run: pip install tiktoken", file=sys.stderr)
+    print("ERROR: tiktoken not installed.", file=sys.stderr)
+    print("", file=sys.stderr)
+    print("Recommended: Install UV for automatic dependency handling:", file=sys.stderr)
+    print("  curl -LsSf https://astral.sh/uv/install.sh | sh", file=sys.stderr)
+    print("  Then run: uv run scan-codebase.py", file=sys.stderr)
+    print("", file=sys.stderr)
+    print("Or install tiktoken manually: pip install tiktoken", file=sys.stderr)
     sys.exit(1)
 
 # Default patterns to always ignore (common non-code files)

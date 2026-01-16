@@ -38,25 +38,20 @@ First, check if `docs/CODEBASE_MAP.md` already exists:
 Run the scanner script to get an overview. Try these in order until one works:
 
 ```bash
-# Option 1: If uv is available (preferred)
+# Option 1: UV (preferred - auto-installs tiktoken in isolated env)
 uv run ${CLAUDE_PLUGIN_ROOT}/skills/cartographer/scripts/scan-codebase.py . --format json
 
-# Option 2: Direct execution (uses shebang)
+# Option 2: Direct execution (requires tiktoken installed)
 ${CLAUDE_PLUGIN_ROOT}/skills/cartographer/scripts/scan-codebase.py . --format json
 
 # Option 3: Explicit python3
 python3 ${CLAUDE_PLUGIN_ROOT}/skills/cartographer/scripts/scan-codebase.py . --format json
-
-# Option 4: Explicit python (some systems)
-python ${CLAUDE_PLUGIN_ROOT}/skills/cartographer/scripts/scan-codebase.py . --format json
 ```
 
-If tiktoken is missing, install it:
-```bash
-# With uv (if available)
-uv pip install tiktoken
+**Note:** The script uses UV inline script dependencies. When run with `uv run`, tiktoken is automatically installed in an isolated environment - no global pip install needed.
 
-# Or standard pip
+If not using UV and tiktoken is missing:
+```bash
 pip install tiktoken
 # or
 pip3 install tiktoken

